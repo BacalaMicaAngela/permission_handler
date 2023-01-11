@@ -7,6 +7,6 @@ void main() {
     theme: ThemeData(
       primarySwatch: Colors.cyan,
     ),
-    home: HomeScreen(),
+    home: const HomeScreen(),
   ));
 }
