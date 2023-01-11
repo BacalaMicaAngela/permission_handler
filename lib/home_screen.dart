@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
               onPressed: () async {
               final result = await FilePicker.platform.pickFiles(allowMultiple: false);
               if (result == null) return;
-              final files = result.files; //EDIT: THIS PROBABLY CAUSED YOU AN ERROR
+              final files = result.files;
               textt = result.files.first.path.toString();
               placeholder = FileImage(File(textt));
               setState((){});
