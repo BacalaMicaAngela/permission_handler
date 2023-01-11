@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
-        title: Text('Homepage'),
+        title: const Text('Homepage'),
         centerTitle: true,
       ),
       body: Center(
@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: <Widget>[
             Text(
               '$textt',
-              style: TextStyle(
+              style: const TextStyle(
                   fontSize:  20,
                   color: Colors.white),
             ),
